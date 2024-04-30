@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "retro";
+    src: url(font/RETROTECH.ttf);
+}
+.amarillo{
+    background-color:  rgb(239, 216, 5);
+    color: rgb(239, 216, 5);
+    
+}
+.azul{
+    background-color: blue;
+    color: blue;
+}
+body{
+    background-image: url(img/fondoretro.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+.gris{
+    background-color: rgb(62, 59, 59);
+    color: rgb(62, 59, 59);
+}
+h1{
+    color: white;
+    font-size: 52px;
+    text-align: center;
+    font-family: "retro";
+}
+.imagentabla{
+    border: 0px;
+    text-align: center;
+    
+}
+.numeros{
+    color: white;
+    font-size: 32;
+    margin-right: 50%;
+    margin: auto;
+    
+}
+.rojo{
+    background-color: rgb(239, 5, 5);
+    color: rgb(239, 5, 5);
+}
+.rosa{
+    background-color: violet;
+    color: violet;
+}
+
+
+table{
+    width: 800px;
+    height: 500px;
+    border: 5px;
+    border-style: groove;
+    border-radius: 10px;
+    border-color: RGB(237, 175, 5);
+    background-color: rgb(62, 59, 59);
+    margin: auto;
+    empty-cells: hide;
+}
+.titulotabla{
+    font-family: "retro";
+    font-size: 40px;
+    background-color: black;
+    border: 5px solid black;
+    border-bottom-color: white;
+    color: red;
+    text-align: center;
+    
+
+}
+td,tr{
+    width: 40px;
+    height: 40px;
+    border: 1px outset grey;
+    border-style: groove;
+    border-radius: 2px;
+}
+.vacio{
+    margin: auto;
+    border-radius: 100%;
+    border-color: white;
+    background-color: white;
+    empty-cells: show;
+    width: 25%;
+    height: 25%;
+    display: block;
+}
+.verde{
+    background-color: green;
+    color: green;
+}
